@@ -93,9 +93,9 @@ public class SchemaTests : IAsyncLifetime
 
         var expense = new Expense
         {
-            Amount   = 10.999m,
+            Amount = 10.999m,
             Category = "Test",
-            Date     = new DateOnly(2026, 1, 15),
+            Date = new DateOnly(2026, 1, 15),
         };
 
         context.Expenses.Add(expense);
